@@ -1,0 +1,7 @@
+fre.yamltools.diag\_table.combine\_diag\_table\_yamls module
+============================================================
+
+.. automodule:: fre.yamltools.diag_table.combine_diag_table_yamls
+   :members:
+   :undoc-members:
+   :show-inheritance:

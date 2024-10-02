@@ -1,0 +1,7 @@
+fre.yamltools.data\_table.data\_table\_to\_yaml module
+======================================================
+
+.. automodule:: fre.yamltools.data_table.data_table_to_yaml
+   :members:
+   :undoc-members:
+   :show-inheritance:

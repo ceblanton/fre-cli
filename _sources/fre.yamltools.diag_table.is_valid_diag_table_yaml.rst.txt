@@ -1,0 +1,7 @@
+fre.yamltools.diag\_table.is\_valid\_diag\_table\_yaml module
+=============================================================
+
+.. automodule:: fre.yamltools.diag_table.is_valid_diag_table_yaml
+   :members:
+   :undoc-members:
+   :show-inheritance:

@@ -1,0 +1,7 @@
+fre.yamltools.data\_table.combine\_data\_table\_yamls module
+============================================================
+
+.. automodule:: fre.yamltools.data_table.combine_data_table_yamls
+   :members:
+   :undoc-members:
+   :show-inheritance:

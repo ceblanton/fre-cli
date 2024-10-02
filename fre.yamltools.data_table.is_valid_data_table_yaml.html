@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>fre.yamltools.data_table.is_valid_data_table_yaml module &mdash; Fre-Cli 1.0 documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=19f00094" />
+      <link rel="stylesheet" type="text/css" href="_static/custom.css?v=fc035491" />
+      <link rel="stylesheet" type="text/css" href="_static/fonts.css?v=5583d106" />
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="_static/jquery.js?v=5d32c60e"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="_static/documentation_options.js?v=f2a433a1"></script>
+        <script src="_static/doctools.js?v=9a2dae69"></script>
+        <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            Fre-Cli
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="setup.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="subtools.html">Subtools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="FAQ.html">FAQ</a></li>
+<li class="toctree-l1"><a class="reference internal" href="badges.html">Badges</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Fre-Cli</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">fre.yamltools.data_table.is_valid_data_table_yaml module</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/fre.yamltools.data_table.is_valid_data_table_yaml.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="module-fre.yamltools.data_table.is_valid_data_table_yaml">
+<span id="fre-yamltools-data-table-is-valid-data-table-yaml-module"></span><h1>fre.yamltools.data_table.is_valid_data_table_yaml module<a class="headerlink" href="#module-fre.yamltools.data_table.is_valid_data_table_yaml" title="Link to this heading"></a></h1>
+<ul class="simple">
+<li><p>This file is part of the GFDL Flexible Modeling System (FMS) YAML tools.</p></li>
+<li></li>
+<li><p>FMS_yaml_tools is free software: you can redistribute it and/or modify it under</p></li>
+<li><p>the terms of the GNU Lesser General Public License as published by</p></li>
+<li><p>the Free Software Foundation, either version 3 of the License, or (at</p></li>
+<li><p>your option) any later version.</p></li>
+<li></li>
+<li><p>FMS_yaml_tools is distributed in the hope that it will be useful, but WITHOUT</p></li>
+<li><p>ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or</p></li>
+<li><p>FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License</p></li>
+<li><p>for more details.</p></li>
+<li></li>
+<li><p>You should have received a copy of the GNU Lesser General Public</p></li>
+<li><p>License along with FMS.  If not, see &lt;<a class="reference external" href="http://www.gnu.org/licenses/">http://www.gnu.org/licenses/</a>&gt;.</p></li>
+</ul>
+<blockquote>
+<div><p>Author: Uriel Ramirez 05/27/2022</p>
+</div></blockquote>
+<dl class="py function">
+<dt class="sig sig-object py" id="fre.yamltools.data_table.is_valid_data_table_yaml.check_fieldname_code">
+<span class="sig-prename descclassname"><span class="pre">fre.yamltools.data_table.is_valid_data_table_yaml.</span></span><span class="sig-name descname"><span class="pre">check_fieldname_code</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">fieldname</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#fre.yamltools.data_table.is_valid_data_table_yaml.check_fieldname_code" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="fre.yamltools.data_table.is_valid_data_table_yaml.check_filename_and_field">
+<span class="sig-prename descclassname"><span class="pre">fre.yamltools.data_table.is_valid_data_table_yaml.</span></span><span class="sig-name descname"><span class="pre">check_filename_and_field</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">field</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">interp_method</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#fre.yamltools.data_table.is_valid_data_table_yaml.check_filename_and_field" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="fre.yamltools.data_table.is_valid_data_table_yaml.check_gridname">
+<span class="sig-prename descclassname"><span class="pre">fre.yamltools.data_table.is_valid_data_table_yaml.</span></span><span class="sig-name descname"><span class="pre">check_gridname</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">grid_name</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#fre.yamltools.data_table.is_valid_data_table_yaml.check_gridname" title="Link to this definition"></a></dt>
+<dd><p>Check if the input grid_name is valid. Crashes if it not.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="fre.yamltools.data_table.is_valid_data_table_yaml.check_if_bounds_present">
+<span class="sig-prename descclassname"><span class="pre">fre.yamltools.data_table.is_valid_data_table_yaml.</span></span><span class="sig-name descname"><span class="pre">check_if_bounds_present</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">entry</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#fre.yamltools.data_table.is_valid_data_table_yaml.check_if_bounds_present" title="Link to this definition"></a></dt>
+<dd><p>Check if the region bounds are valid, crashes if they are not</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="fre.yamltools.data_table.is_valid_data_table_yaml.check_interp_method">
+<span class="sig-prename descclassname"><span class="pre">fre.yamltools.data_table.is_valid_data_table_yaml.</span></span><span class="sig-name descname"><span class="pre">check_interp_method</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">interp_method</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#fre.yamltools.data_table.is_valid_data_table_yaml.check_interp_method" title="Link to this definition"></a></dt>
+<dd><p>Check if the interp method is valid. Crashes if it not.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="fre.yamltools.data_table.is_valid_data_table_yaml.check_region">
+<span class="sig-prename descclassname"><span class="pre">fre.yamltools.data_table.is_valid_data_table_yaml.</span></span><span class="sig-name descname"><span class="pre">check_region</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">my_type</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">start</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">end</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#fre.yamltools.data_table.is_valid_data_table_yaml.check_region" title="Link to this definition"></a></dt>
+<dd><p>Check if the region is defined correctly. Crashes if it not.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="fre.yamltools.data_table.is_valid_data_table_yaml.check_region_type">
+<span class="sig-prename descclassname"><span class="pre">fre.yamltools.data_table.is_valid_data_table_yaml.</span></span><span class="sig-name descname"><span class="pre">check_region_type</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">region_type</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#fre.yamltools.data_table.is_valid_data_table_yaml.check_region_type" title="Link to this definition"></a></dt>
+<dd><p>Check if the input region type is valid. Crashes if it is not.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="fre.yamltools.data_table.is_valid_data_table_yaml.main">
+<span class="sig-prename descclassname"><span class="pre">fre.yamltools.data_table.is_valid_data_table_yaml.</span></span><span class="sig-name descname"><span class="pre">main</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#fre.yamltools.data_table.is_valid_data_table_yaml.main" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+</section>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2024, Bennett Chang.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

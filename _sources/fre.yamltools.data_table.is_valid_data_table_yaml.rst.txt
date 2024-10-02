@@ -1,0 +1,7 @@
+fre.yamltools.data\_table.is\_valid\_data\_table\_yaml module
+=============================================================
+
+.. automodule:: fre.yamltools.data_table.is_valid_data_table_yaml
+   :members:
+   :undoc-members:
+   :show-inheritance:

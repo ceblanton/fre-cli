@@ -1,0 +1,7 @@
+fre.yamltools.diag\_table.diag\_table\_to\_yaml module
+======================================================
+
+.. automodule:: fre.yamltools.diag_table.diag_table_to_yaml
+   :members:
+   :undoc-members:
+   :show-inheritance:

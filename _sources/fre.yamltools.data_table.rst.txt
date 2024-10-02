@@ -1,0 +1,20 @@
+fre.yamltools.data\_table package
+=================================
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 4
+
+   fre.yamltools.data_table.combine_data_table_yamls
+   fre.yamltools.data_table.data_table_to_yaml
+   fre.yamltools.data_table.is_valid_data_table_yaml
+
+Module contents
+---------------
+
+.. automodule:: fre.yamltools.data_table
+   :members:
+   :undoc-members:
+   :show-inheritance:

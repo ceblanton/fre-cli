@@ -1,0 +1,20 @@
+fre.yamltools.diag\_table package
+=================================
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 4
+
+   fre.yamltools.diag_table.combine_diag_table_yamls
+   fre.yamltools.diag_table.diag_table_to_yaml
+   fre.yamltools.diag_table.is_valid_diag_table_yaml
+
+Module contents
+---------------
+
+.. automodule:: fre.yamltools.diag_table
+   :members:
+   :undoc-members:
+   :show-inheritance:
