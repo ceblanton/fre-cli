@@ -1,0 +1,19 @@
+What is postprocessing for?
+
+FMS history files
+-----------------
+
+Namespaces, regridding, and statics
+-----------------------------------
+
+Climatologies
+-------------
+
+Offline variables and analysis scripts
+--------------------------------------
+
+Fine-grained control of timeseries and climatologies
+----------------------------------------------------
+
+Publishing
+----------
